@@ -1,69 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-    <title>Pest Control</title>
-  </head>
-  <body>
-    <main>
-      <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid bg-success">
-          <a class="navbar-brand" href="#">
-            <img src="assets/logo-pest control.png" alt="Logo" />
-          </a>
 
-          <button
-            class="navbar-toggler fw-bold"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/style.css" />
+  <title>Pest Control</title>
+</head>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto text-center">
-              <li class="nav-item fw-bold">
-                <a
-                  class="nav-link active text-white"
-                  aria-current="page"
-                  href="#"
-                  >Sobre la empresa</a
-                >
-              </li>
-              <li class="nav-item fw-bold">
-                <a class="nav-link text-white" href="#">Servicios</a>
-              </li>
-              <li class="nav-item fw-bold">
-                <a class="nav-link text-white" href="#">Contáctenos</a>
-              </li>
-            </ul>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-verde-agua">
+      <div class="container-fluid bg-verde-agua">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo-pest control.png" alt="Logo" />
+        </a>
+
+        <button class="navbar-toggler fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item fw-bold">
+              <a class="nav-link active text-white" aria-current="page" href="#">Sobre la empresa</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link text-white" href="#">Servicios</a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a class="nav-link text-white" href="#">Contáctenos</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 🔹 Este logo se oculta en pantallas pequeñas -->
+        <a class="navbar-brand d-none d-lg-block" href="#">
+          <img src="assets/prohibido cucarachas.png" alt="Logo de prohibido cucarachas" />
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="card text-bg-dark">
+        <img src="assets/hero-index.png" class="card-img" alt="Hombre fumigando plantas">
+        <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+          <h5 class="card-title fs-1 text-success fw-bold">Servicios de desinsectación</h5>
+          <button type="button" class="btn btn-success">Contáctenos</button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container my-3">
+        <div class="row align-items-center">
+          <!-- Imagen -->
+          <div class="col-12 col-md-5 mb-3 mb-md-0 text-center">
+            <img src="assets/fugador plantas.png" class="img-fluid rounded" alt="...">
           </div>
 
-          <!-- 🔹 Este logo se oculta en pantallas pequeñas -->
-          <a class="navbar-brand d-none d-lg-block" href="#">
-            <img
-              src="assets/prohibido cucarachas.png"
-              alt="Logo de prohibido cucarachas"
-            />
-          </a>
+          <!-- Texto -->
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+            <h2 class="text-success fw-bold">¿Quiénes somos?</h2>
+            <p class="fs-5 text-justify">
+              Somos una empresa líder dedicada al manejo integral de plagas, respaldada por más de 25 años
+              de trayectoria en el rubro de Manejo Integral de Plagas (M.I.P). Reconocida por nuestra
+              seriedad, compromiso y calidad de servicios.
+              Siempre nos hemos diferenciado del resto tomando como iniciativa el Saneamiento Ambiental, sabíamos muy
+              bien
+              que el mercado necesitaba algo más que una simple fumigación, es por ello que hoy día contamos con
+              maquinaria de última generación y un equipo multidisciplinario altamente capacitado para la implementación
+              del sistema de Manejo Integral de Plagas basado en el Saneamiento Ambiental y la aplicación de Sistemas de
+              gestión bajo normas de BPM.
+            </p>
+          </div>
         </div>
-      </nav>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="bg-verde-agua text-white text-center py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-4">Nuestros Servicios</h2>
+        <div class="row g-4">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/desinfeccion de aula.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">DESINFECCIÓN</h5>
+                  <p class="card-text">Mediante un proceso químico se matan o inactivan agentes patógenos tales como
+                    bacterias, virus y protozoos impidiendo el crecimiento de microorganismos patógenos en fase
+                    vegetativa que se encuentren en objetos inertes</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/fumigando plantas.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">FUMIGACIONES</h5>
+                  <p class="card-text">Fumigaciones el mejor servicio garantizado y con gente con experiencia y
+                    capacitación. Trabajamos para cuidarlos desde el año 1994. Somos una empresa con 25 años de
+                    experiencia en el sector.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/fumigando fabrica.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">CONTROL DE PLAGAS</h5>
+                  <p class="card-text">Ofrecemos Servicios de control de plagas urbanas. Brindamos dentro del servicio,
+                    Oblea.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/fumigando arboles.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">DESINSECTACIÓN</h5>
+                  <p class="card-text">La desinsectación es la eliminación o reducción a parámetros aceptables de
+                    determinados artrópodos dañinos, mediante la aplicación de medios químicos. Puede haber especies
+                    dañinas para la agricultura, ganadería, para las personas, etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/trampa.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">DESRATIZACIÓN</h5>
+                  <p class="card-text">Es el conjunto de técnicas de saneamiento que se emplean para el control o
+                    exterminio de roedores, incluyendo ratas y ratones. Debido a que estas son vectores de enfermedades
+                    y a que devoran la comida.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/fumigando cocina.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-primary fw-semibold">M.I.P. (MANEJO INTEGRADO DE PLAGAS)</h5>
+                  <p class="card-text">El MIP es la utilización de todos los recursos necesarios para minimizar los
+                    peligros ocasionados por la presencia de plagas. Es un sistema esencialmente preventivo que se
+                    adelanta a la incidencia del impacto de las plagas sobre los procesos productivos y nuestra salud.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-verde-agua">
+      <div class="container py-5">
+        <h2 class="text-primary fw-semibold text-center">Contratá nuestros servicios</h2>
+        <div class="container d-flex justify-content-center flex-wrap gap-4 mt-4">
+          <div class="card bg-verde-agua border-0 m-3" style="width: 16rem;">
+            <img src="assets/logo tienda.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-2 fw-bold">Fumigación de locales comerciales</p>
+            </div>
+          </div>
+          <div class="card bg-verde-agua border-0 m-3" style="width: 16rem;">
+            <img src="assets/logo casa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-2 fw-bold">Fumigación de hogares</p>
+            </div>
+          </div>
+          <div class="card bg-verde-agua border-0 m-3" style="width: 16rem;">
+            <img src="assets/logo silo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-2 fw-bold">Fumigación de silos de cereal</p>
+            </div>
+          </div>
+          <div class="card bg-verde-agua border-0 m-3" style="width: 16rem;">
+            <img src="assets/logo barco.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text fs-2 fw-bold">Fumigación de barcos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
 </html>
